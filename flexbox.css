@@ -1,0 +1,35 @@
+.container{
+    border:2px solid red;
+    height:500px;
+    display:flex;
+    flex-direction:column; /*kolon yapisi dikey sekilde oldugundan main dikey oldu.*/
+    justify-content: space-between;
+}
+
+.inner-container{
+    /* border:4px solid green; */
+    display:flex;
+
+}
+
+.flexbox-item{
+    background-color: aqua;
+    width:200px;
+    margin:10px;
+    border:1px solid black;
+}
+
+.item-1{
+
+    min-height:100px;
+}
+
+.item-2{
+
+    min-height:200px;
+}
+
+.item-3{
+    min-height:250px;
+    /* align-self:flex-end; */
+}
